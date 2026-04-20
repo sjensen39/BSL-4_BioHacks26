@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    ports:
+      - "7070:8000"
+    volumes:
+      - .:/app
