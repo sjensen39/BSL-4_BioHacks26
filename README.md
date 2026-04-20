@@ -35,6 +35,9 @@ Make sure it looks like this
     ports:
       - "7070:8000"
     volumes:
-      - .:/app```
+      - .:/app
+```
 
-You can either run this file by clicking "run services" or by creating a docker container with ```docker compose up --build```
+You can either run this file by clicking "run services" or by creating a docker container with
+```docker compose up --build
+```
